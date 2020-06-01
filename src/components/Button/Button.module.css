@@ -1,0 +1,16 @@
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #fff;
+    
+    border: none;
+    border-radius: 5px;
+    
+}
+.btn a {
+    color: #ED4C5C;
+}
+.btn:hover {
+    opacity: 0.9;
+}
