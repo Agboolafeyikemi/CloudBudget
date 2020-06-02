@@ -12,47 +12,46 @@ class Header extends Component {
     return (
       <Fragment>
         <header className={classes.hero}>
-          <nav className={classes.navbar}>
-
+          <div className={classes.navbar}>
             <Logo />
-            <ul>
-              <li>
-                <a class="current" href="index.html">
-                  OVERVIEW
-                </a>
-              </li>
-              <li>
-                <a href="about.html">FEATURES </a>
-              </li>
-              <li>
-                <a href="contact.html"> TECHNOLOGY </a>
-              </li>
-              <li>
-                <a href="contact.html"> CONTACT</a>
-              </li>
-              <li>
-                <a href="contact.html">SIGN UP</a>
-              </li>
-            </ul>
-            <div className={classes.login}>
-              <img src={usBanner} alt="usBanner" />
-              <p>EN</p>
-              <img className={classes.icon} src={icon} alt="icon" />
-              <button className={classes.button}>Login</button>
-            </div>
-            {/* </div> */}
-          </nav>
-          {/* <div id ="showcase"> */}
-          {/* <div className={classes.container}> */}
+            <nav>
+              <ul>
+                <li>
+                  <a class="current" href="index.html">
+                    OVERVIEW
+                  </a>
+                </li>
+                <li>
+                  <a href="about.html">FEATURES </a>
+                </li>
+                <li>
+                  <a href="contact.html"> TECHNOLOGY </a>
+                </li>
+                <li>
+                  <a href="contact.html"> CONTACT</a>
+                </li>
+                <li>
+                  <a href="contact.html">SIGNUP</a>
+                </li>
+{/* 
+                <li className={classes.login}>
+                  <a>
+                    <img src={usBanner} alt="usBanner" />
+                    <p>EN</p>
+                    <img className={classes.icon} src={icon} alt="icon" />
+                    <button className={classes.button}>Login</button>
+                  </a>
+                </li> */}
+              </ul>
+            </nav>
+          </div>
           <div className={classes.content}>
             <h1>CloudBudget</h1>
             <p class="lead">
               Cloud budget management for everyone. Only €69.95 a Month After a
               7 Day Trial of Up to €4.99
             </p>
-            <Button/>
-            {/* </div> */}
-            {/* </div> */}
+            <Button />
           </div>
         </header>
       </Fragment>
