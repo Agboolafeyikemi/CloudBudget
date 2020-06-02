@@ -9,7 +9,6 @@
   margin: auto;
   max-width: 1100px;
   padding: 0 20px;
-  /* overflow: auto; */
 }
 
 .hero .content {
@@ -34,12 +33,12 @@
   max-width: 450px;
   margin: 20px 0 30px;
 }
-
 /* Navbar */
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  /* background-color: #333; */
   color: #fff;
   opacity: 0.8;
   width: 100%;
@@ -48,20 +47,18 @@
   top: 0px;
   padding: 0 30px;
   transition: 0.5s;
-  margin-top: 1.5rem;
+}
+
+.navbar.top {
+  background: transparent;
 }
 
 .navbar a {
   color: #fff;
   padding: 10px 20px;
   margin: 0 5px;
-  text-decoration: none;
 }
 
-/* .navbar a:last-child {
-  padding: 0px;
-  font-weight: 800;
-} */
 .navbar a:hover {
   border-bottom: #28a745 2px solid;
 }
@@ -92,24 +89,55 @@
   width: 35%;
 }
 
-
-
-
-
-
-
-
-
 /* Mobile */
-@media(max-width: 1080px) {
-    /* .navbar {
-        flex-direction: column;
-        height: 120px;
-        padding: 20px;
-    }
+@media (max-width: 350px) {
+  /* .navbar a {
+    display: block;
+    padding: 10px 0;
+    margin: 0 3px;
+    font-size: 15px;
+  } */
+  .navbar {
+    display: block;
+  }
+}
 
-    .navbar a {
-        padding: 10px 10px;
-        margin: 0 3px;
-    }  */
+@media (max-width: 600px) {
+  .navbar a {
+    padding: 10px 0;
+    margin: 0 3px;
+    font-size: 15px;
+  }
+
+  .hero .content h1 {
+    font-size: 40px;
+ 
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+
+  .navbar a {
+    padding: 10px 5px;
+    margin: 0 6px;
+  }
+
+  .flex-items {
+    flex-direction: column;
+  }
+
+  .flex-columns .column,
+  .flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .team img {
+    width: 70%;
+  }
 }

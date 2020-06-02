@@ -1,0 +1,23 @@
+/* Flex items */
+.flexItems {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 100%;
+    position: relative;
+  }
+  .flexItems > div {
+    padding: 20px;
+  }
+
+  @media (max-width: 768px){
+  .flexItems {
+    flex-direction: column;
+  
+  }
+
+  .flexItems > div {
+    padding-top: 86px;
+  }
+}
