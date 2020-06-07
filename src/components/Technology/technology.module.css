@@ -1,7 +1,6 @@
 .section-header {
   margin-top: 20px;
 }
-/* Section header */
 .sectionHeader {
   padding: 30px;
   display: flex;
@@ -22,7 +21,6 @@
   padding-bottom: 103px;
   background-color: #fff;
 }
-/* Flex items */
 .flexItems {
   display: flex;
   text-align: center;
@@ -49,21 +47,14 @@
     font-size: 20px;
     margin: 0;
   }
-  .flexItems > div {
-    /* padding-top: 0; */
-  }
   .sectionPadding {
   padding-bottom: 0;
   padding-top: 20px;
   }
 }
 
-@media (max-width: 768px and min-width:600px) {
+@media (max-width: 768px) {
   .flexItems {
     flex-direction: column;
-  }
-
-  .flexItems > div {
-    /* padding-top: 86px; */
   }
 }

@@ -11,6 +11,10 @@
   padding: 0 20px;
 }
 
+.navbar.top {
+  background: transparent;
+}
+
 .hero .content {
   display: flex;
   flex-direction: column;
@@ -33,6 +37,7 @@
   max-width: 450px;
   margin: 20px 0 30px;
 }
+
 /* Navbar */
 .navbar {
   display: flex;
@@ -48,14 +53,13 @@
   transition: 0.5s;
 }
 
-.navbar.top {
+.top {
   background: transparent;
 }
 
 .navbar a {
   color: #fff;
-  padding: 10px 20px;
-  margin: 0 5px;
+  padding: 10px 20px; 
 }
 
 .navbar a:hover {
@@ -70,8 +74,9 @@
 .navbar .logo {
   font-weight: 400;
 }
+
 .login {
-  width: 15%;
+  width: 20%;
   display: flex;
   justify-content: space-around;
 }
@@ -88,42 +93,31 @@
   width: 35%;
 }
 
-/* Mobile */
-@media (max-width: 350px) {
-  /* .navbar a {
-    display: block;
-    padding: 10px 0;
-    margin: 0 3px;
-    font-size: 15px;
-  } */
-  .navbar {
-    display: block;
-  }
-}
-
-@media (max-width: 600px) {
-  .navbar a {
-    padding: 10px 0;
-    margin: 0 3px;
-    font-size: 15px;
-  }
-
+@media (max-width: 500px) {
   .hero .content h1 {
-    font-size: 40px;
- 
+    font-size: 27px;
   }
-}
 
-@media (max-width: 768px) {
+  .hero .content p {
+    font-size: 17px;
+  }
   .navbar {
     flex-direction: column;
     height: 120px;
-    padding: 20px;
+    padding: 28px;
   }
 
   .navbar a {
-    padding: 10px 5px;
+    margin: 0 -15px;
+  }
+  .navbar li a {
+    padding: 10px 0px;
     margin: 0 6px;
+    font-size: 11px;
+  }
+
+  .login {
+    display: none;
   }
 
   .flex-items {
