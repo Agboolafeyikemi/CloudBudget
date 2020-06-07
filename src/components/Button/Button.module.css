@@ -1,16 +1,22 @@
-.btn {
-    cursor: pointer;
-    display: inline-block;
-    padding: 10px 30px;
-    background-color: #fff;
-    
-    border: none;
-    border-radius: 5px;
-    
+.Button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  height: 45px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
 }
-.btn a {
-    color: #ED4C5C;
+
+.Header {
+  background-color: #fff;
+  color: #ed4c5c;
 }
-.btn:hover {
+
+.Contact {
+  background-color: #ed4c5c;
+  color: #fff;
+}
+.Button:hover {
     opacity: 0.9;
-}
+} 

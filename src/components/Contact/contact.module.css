@@ -1,0 +1,103 @@
+.flexColumns {
+  background-color: #fff;
+  color: black;
+  padding: 117px 30px;
+  height: 500px;
+}
+.flexColumn {
+  width: 88%;
+  margin: 0 auto;
+}
+
+.flexColumns .row {
+  display: flex;
+  margin: 0 auto;
+}
+
+.flexColumns .column {
+  flex: 1;
+}
+.flexColumns .column .column1 {
+  width: 70%;
+}
+
+.flexColumns .column .column1,
+.flexColumns .column .column2 {
+  margin-top: 8px;
+}
+
+
+.flexColumns h2 {
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.flexColumns h4 {
+  margin-bottom: 10px;
+}
+
+.flexColumns p {
+  margin: 30px 0;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.callbackForm {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.callbackForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.callbackForm .formControl {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.callbackForm input,
+.callbackForm select {
+  width: 100%;
+  padding: 18px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  color: rgba(19, 39, 67, 0.5);
+  background-color: white;
+}
+.firstChild {
+  margin-right: 10px;
+}
+
+.callbackForm input:focus {
+  outline-color: #28a745;
+}
+
+.callbackForm .btn {
+  padding: 12px 0;
+  margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+  .flexColumns .row {
+    display: block;
+  }
+  .flexColumns .column .column1 {
+    width: 100%;
+    text-align: center;
+  }
+  .flexColumns {
+    padding: 17px 30px;
+  }
+  .flexColumns p {
+    margin: 7px 0;
+    text-align: center;
+  }
+  .callbackForm .formControl {
+   display: block;
+  }
+  .firstChild {
+    margin-bottom: 15px;
+  }
+}
