@@ -1,11 +1,9 @@
 import React, { Fragment, Component } from "react";
 
-import Logo from "../Logo/logo";
 import classes from "./Header.module.css";
 import Button from "../Button/Button";
 
-import usBanner from "../../assests/images/us-banner.png";
-import icon from "../../assests/images/icon.png";
+import Logo from "../Logo/logo";
 
 class Header extends Component {
   render() {
@@ -33,15 +31,6 @@ class Header extends Component {
                 <li>
                   <a href="contact.html">SIGNUP</a>
                 </li>
-{/* 
-                <li className={classes.login}>
-                  <a>
-                    <img src={usBanner} alt="usBanner" />
-                    <p>EN</p>
-                    <img className={classes.icon} src={icon} alt="icon" />
-                    <button className={classes.button}>Login</button>
-                  </a>
-                </li> */}
               </ul>
             </nav>
           </div>
@@ -51,7 +40,7 @@ class Header extends Component {
               Cloud budget management for everyone. Only €69.95 a Month After a
               7 Day Trial of Up to €4.99
             </p>
-            <Button />
+            <Button btnType={"Header"}>SIGN UP</Button>
           </div>
         </header>
       </Fragment>

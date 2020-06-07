@@ -1,0 +1,72 @@
+.footer {
+  background-color: #fafafa;
+  width: 100%;
+  margin: 0 auto;
+  height: 500px;
+
+  padding: 109px 30px;
+}
+.footerDetails {
+  margin: 0 auto;
+  width: 88%;
+}
+.footerDetail {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.footerDetail h4 {
+  font-size: 18px;
+  color: #101010;
+  margin-bottom: 20px;
+}
+
+.footerDetail ul {
+  list-style: none;
+}
+
+.footerDetail li {
+  font-size: 15px;
+  color: #000000;
+  padding: 2px;
+}
+.Services li {
+  text-transform: capitalize;
+}
+.Address {
+  width: 15%;
+}
+.copyright p {
+  margin-top: 100px;
+}
+
+@media (max-width: 500px) {
+  .footer {
+    height: auto;
+    padding: 41px 30px;
+    margin-top: 61px;
+  }
+
+.footerDetail {
+  display: block;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.footerDetail h4 {
+  margin-bottom: 0;
+}
+.Address {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.Services,
+.GetinTouch {
+  margin-bottom: 10px;
+}
+.copyright p {
+  margin-top: 20px;
+  text-align: center;
+}
+}

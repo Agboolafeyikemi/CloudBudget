@@ -25,7 +25,7 @@ const feature = props => {
       link: "Read More"
     },
     {
-      id: "1",
+      id: "3",
       title: "Cloud Budget Management Software",
       image: image1,
       content:"Our software is made so you can access and manage your budget",
@@ -34,13 +34,12 @@ const feature = props => {
   ];
 
   return (
-    <section class="team section-padding">
-      <header class="section-header">
+    <section className={classes.sectionPadding}>
+      <header className={classes.sectionHeader}>
         <h4>Features</h4>
       </header>
       <div className={classes.flexItems}>
       {data.map((feature) => (
-        // eslint-disable-next-line no-unused-expressions
         <div >
            <Features 
            img={feature.image}
