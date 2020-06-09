@@ -62,7 +62,7 @@
   padding: 10px 20px; 
 }
 
-.navbar a:hover {
+.navbar ul a:hover {
   border-bottom: #fff 2px solid;
 }
 
