@@ -39,7 +39,7 @@ class Header extends Component {
                 </ul>
               </nav>
               <div className={classes.login}>
-                <img src={usBanner} alt={"us-banner"} />
+                <img src={usBanner} alt={"us-banner"} className={classes.banner}/>
                 <p>EN</p>
                 <img src={icon} alt={"icon"} className={classes.icon} />
                 <button className={classes.button}>Login</button>

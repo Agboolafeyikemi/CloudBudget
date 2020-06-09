@@ -20,3 +20,6 @@
 .Button:hover {
     opacity: 0.9;
 } 
+@media (max-width: 500px) {
+ .Contact{ width: 100%;}
+}

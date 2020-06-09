@@ -81,8 +81,17 @@
   justify-content: space-around;
 }
 .icon {
+  /* height: 10%;
+  padding-top: 0.4rem; */
+
   height: 10%;
-  padding-top: 0.4rem;
+    padding-top: 0.4rem;
+    /* margin-right: 21px; */
+    position: relative;
+    right: 21px;
+}
+.banner{
+  margin-right: -22px;
 }
 .button {
   padding: 0.5rem;
